@@ -1,0 +1,49 @@
+$primary-font:  'Indie Flower', cursive;
+$bg-dark: #121212;
+$text-color: #ffffffda;
+
+html {
+  font-family: 100%;
+  box-sizing: border-box;
+}
+
+*,*::before,*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: $primary-font;
+  background-color: $bg-dark;
+  color: $text-color;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+
+  background-image:url(480686.jpg);
+  background-size: cover;
+}
+
+.loki {
+  font-size: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+
+  .letter{
+     text-shadow: 0 0 0.4em #ffffffda, 0 0 0.5em #ffffffda, 0 0 0.25em #ffffffda;
+    mix-blend-mode: screen;
+  }
+}
